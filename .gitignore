@@ -48,6 +48,27 @@ credentials.json
 *.sqlite
 *.sqlite3
 
+# Python files - LOCAL DEVELOPMENT ONLY
+# Never commit to GitHub (Vercel uses Node.js in web/ only)
+main.py
+scheduler.py
+setup.py
+debug_scheduler.py
+generate_data.py
+setup.sh
+run_scheduler.sh
+setup_launchd.sh
+github-setup.sh
+vercel-deploy.sh
+restore-python.sh
+quickstart.sh
+src/
+tests/
+docs/
+examples/
+pytest.ini
+requirements.txt
+
 # Reports and outputs
 *.html
 *.pdf
