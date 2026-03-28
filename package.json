@@ -1,0 +1,14 @@
+{
+  "name": "cro-analyzer-root",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Root package - Node.js only",
+  "scripts": {
+    "start": "cd web && npm start",
+    "dev": "cd web && npm run dev",
+    "build": "cd web && npm install"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
