@@ -69,3 +69,23 @@ logs/
 # OS
 .DS_Store
 Thumbs.db
+
+# Python files - local development only
+main.py
+scheduler.py
+setup.py
+debug_scheduler.py
+generate_data.py
+*.pyc
+__pycache__/
+.pytest_cache/
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
+venv/
+.venv/
+env/
+.env
+.python-local-backup/
