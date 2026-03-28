@@ -1,0 +1,30 @@
+# Core dependencies
+pandas>=1.5.0
+numpy>=1.22.0
+matplotlib>=3.5.0
+plotly>=5.0.0
+
+# Google Analytics API
+google-cloud-analytics-data>=0.16.0
+
+# Data processing and analysis
+scipy>=1.8.0
+scikit-learn>=1.0.0
+
+# Report generation
+reportlab>=3.6.0
+jinja2>=3.0.0
+
+# Configuration and utilities
+python-dotenv>=0.20.0
+requests>=2.25.0
+pydantic>=1.9.0
+
+# Testing
+pytest>=7.0.0
+pytest-cov>=4.0.0
+
+# Development tools
+black>=22.0.0
+flake8>=4.0.0
+isort>=5.10.0

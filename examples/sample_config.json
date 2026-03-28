@@ -1,0 +1,19 @@
+{
+  "ga4_property_id": "123456789",
+  "funnel_steps": [
+    "page_view",
+    "view_item",
+    "add_to_cart",
+    "begin_checkout",
+    "purchase"
+  ],
+  "heatmap_provider": {
+    "type": "clarity",
+    "enabled": true
+  },
+  "analysis_settings": {
+    "time_window_hours": 24,
+    "min_abandonment_threshold": 20,
+    "output_format": "html"
+  }
+}
