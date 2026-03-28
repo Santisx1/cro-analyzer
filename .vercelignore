@@ -1,0 +1,23 @@
+# Ignore Python files - use Node.js only
+*.py
+*.pyc
+__pycache__
+venv/
+.venv
+*.egg-info/
+src/
+tests/
+docs/
+examples/
+*.sh
+.github/
+pytest.ini
+setup.py
+scheduler.py
+main.py
+generate_data.py
+debug_scheduler.py
+requirements.txt
+
+# Keep Node.js
+!web/
