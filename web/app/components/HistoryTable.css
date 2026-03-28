@@ -1,0 +1,104 @@
+.history-table-wrapper {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.history-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+}
+
+.history-table thead {
+  background: rgba(76, 192, 115, 0.1);
+  border-bottom: 2px solid rgba(76, 192, 115, 0.3);
+}
+
+.history-table th {
+  padding: 1rem;
+  text-align: left;
+  color: #4cc073;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  letter-spacing: 0.5px;
+}
+
+.history-table td {
+  padding: 1rem;
+  border-bottom: 1px solid rgba(76, 192, 115, 0.1);
+  color: #d0d0d0;
+}
+
+.history-table tbody tr {
+  transition: all 0.3s ease;
+}
+
+.history-table tbody tr:hover {
+  background: rgba(76, 192, 115, 0.05);
+}
+
+.conversion-rate {
+  color: #4cc073;
+  font-weight: 600;
+}
+
+.status-badge {
+  display: inline-block;
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+.status-completed {
+  background: rgba(76, 192, 115, 0.15);
+  color: #4cc073;
+}
+
+.status-pending {
+  background: rgba(255, 165, 0, 0.15);
+  color: #ffa500;
+}
+
+.status-running {
+  background: rgba(100, 149, 237, 0.15);
+  color: #6495ed;
+}
+
+.status-error {
+  background: rgba(255, 107, 107, 0.15);
+  color: #ff6b6b;
+}
+
+.link-action {
+  background: none;
+  border: none;
+  color: #4cc073;
+  cursor: pointer;
+  text-decoration: underline;
+  font-size: 0.9rem;
+  padding: 0;
+  transition: color 0.3s ease;
+}
+
+.link-action:hover {
+  color: #45ad66;
+}
+
+.table-empty {
+  text-align: center;
+  color: #666;
+  padding: 2rem;
+}
+
+@media (max-width: 768px) {
+  .history-table {
+    font-size: 0.85rem;
+  }
+
+  .history-table th,
+  .history-table td {
+    padding: 0.75rem 0.5rem;
+  }
+}

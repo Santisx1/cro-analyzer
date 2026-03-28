@@ -1,0 +1,78 @@
+.funnel-chart {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.funnel-step {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.step-bar {
+  background: linear-gradient(90deg, rgba(76, 192, 115, 0.3), rgba(76, 192, 115, 0.6));
+  border: 1px solid rgba(76, 192, 115, 0.4);
+  border-radius: 6px;
+  padding: 1rem;
+  min-height: 50px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.step-bar:hover {
+  background: linear-gradient(90deg, rgba(76, 192, 115, 0.4), rgba(76, 192, 115, 0.7));
+  box-shadow: 0 4px 12px rgba(76, 192, 115, 0.2);
+}
+
+.step-label {
+  color: #e0e0e0;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.step-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+  font-size: 0.85rem;
+}
+
+.step-info .users {
+  color: #4cc073;
+  font-weight: 500;
+}
+
+.step-info .dropoff {
+  color: #ffa500;
+  font-weight: 500;
+}
+
+.chart-empty {
+  text-align: center;
+  color: #999;
+  padding: 2rem;
+}
+
+@media (max-width: 768px) {
+  .funnel-step {
+    gap: 0.75rem;
+  }
+
+  .step-bar {
+    padding: 0.75rem;
+    min-height: 40px;
+  }
+
+  .step-label {
+    font-size: 0.9rem;
+  }
+
+  .step-info {
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+}

@@ -26,6 +26,13 @@ Ferramenta Python completa para análise automatizada de **Conversion Rate Optim
 - **PDF** - Relatórios para compartilhamento
 - **JSON** - Integração com outras ferramentas
 
+### ✅ Web Application (React + Next.js)
+- **Dashboard em Tempo Real** - KPIs, gráficos e recomendações
+- **Autenticação com Supabase** - Login seguro com email/senha
+- **Histórico de Análises** - Rastreamento de resultados ao longo do tempo
+- **Integração com API Node.js** - Backend escalável com Express.js
+- **Deployment em Vercel** - Hospedagem rápida e confiável
+
 ## 📦 Instalação
 
 ### Requisitos
@@ -50,6 +57,31 @@ venv\Scripts\activate
 # Instalar dependências
 pip install -r requirements.txt
 ```
+
+## 🌐 Web Application (React + Next.js)
+
+### Setup Rápido
+
+```bash
+# Instalar Node.js (https://nodejs.org/)
+# macOS com Homebrew:
+brew install node
+
+# Navegar para o diretório web
+cd web
+
+# Instalar dependências
+npm install
+
+# Iniciar desenvolvimento
+npm run dev:full
+```
+
+**URLs:**
+- Frontend: http://localhost:3000
+- API: http://localhost:3001
+
+Para mais detalhes, veja [REACT_MIGRATION.md](web/REACT_MIGRATION.md)
 
 ## 🚀 Uso Rápido
 
