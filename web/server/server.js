@@ -4,6 +4,7 @@ import dotenv from 'dotenv';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { createClient } from '@supabase/supabase-js';
+import integrationsRouter from './routes/integrations.js';
 
 // Setup
 dotenv.config();
@@ -241,6 +242,12 @@ app.get('/api/competitors', async (req, res) => {
     return res.status(500).json({ error: err.message });
   }
 });
+
+// ==========================================
+// INTEGRATIONS ROUTES (Google Analytics & Clarity)
+// ==========================================
+
+app.use('/api/integrations', integrationsRouter);
 
 // ==========================================
 // HEALTH CHECK
